@@ -1,0 +1,4 @@
+.help { cursor: help; }
+.dragme { cursor: move; }
+.clickme { cursor: pointer; }
+.smile { cursor: url('smile.png'), auto; }
