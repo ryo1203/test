@@ -1,0 +1,126 @@
+
+.container{
+  width: 500px;
+  margin:0 auto;
+  /*background: pink;*/
+}
+
+header{
+  background: tomato;
+}
+
+main{
+  background: skyblue;
+  padding: 15px 0 ;
+}
+
+ul#lessons{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#lessons h2, ul#lessons p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+ul#lessons .lesson_img{
+  float: left;
+  width: 50px;
+}
+
+ul#lessons .lesson_info{
+  float: right;
+  width: 440px;
+}
+
+ul#lessons li:not(:last-child){
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.54);
+}
+
+ul#lessons li{
+    overflow: hidden;
+}
+
+footer{
+  background: slategray;
+  clear: both;
+}
+
+/*main .product{
+  position: relative;
+  display: inline-block;
+}
+
+main .price{
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 10px;
+  padding: 4px;
+  font-weight: bold;
+  background-color: pink;
+}
+
+*/
+
+
+
+/*ul#menu{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+
+ul#menu > li{
+  display: inline-block;
+}
+
+ul#menu > li > a{
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background: orange;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+ul#menu > li > a:hover{
+  opacity: 0.5;
+  transition: 0.8s;
+}
+
+
+/*.clearfix::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+
+.clear{
+  overflow: hidden;
+}
+
+/*#left{
+  background-color: limegreen;
+  float: left;
+  width: 100px;
+}
+
+#center{
+  background-color: seagreen;
+  margin: 0 100px;
+}
+
+#right{
+  background-color: lightgreen;
+  margin-left: 100px;
+}
+*/
