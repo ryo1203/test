@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf8">
-    <link rel="stylesheet" href="mystyles.css">
-    <title>はじめてのHTML</title>
-  </head>
-  <body>
-    <article>
-         <h1>おいしいごはん</h1>
-         <p>至高のTKG → <a href="more.html">もっと見る</a></p>
-         <h2>材料</h2>
-         <ul>
-             <li><a href="http://dotinstall.com" target="_blank">卵</a></li>
-             <li>しょうゆ</li>
-             <li>ごはん</li>
-         </ul>
-         <h2>手順</h2>
-         <ol>
-             <li>まぜる</li>
-             <li>かける</li>
-         </ol>
-         <h2>定義</h2>
-         <dl>
-             <dt>TKG</dt>
-             <dd>TAMAGO KAKE GOHAN</dd>
-         </dl>
-     </article>
 
-   </body>
- </html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    <title>CSS layout practicd</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            header
+            <!-- <ul id="menu">
+          <li><a href="">menu 1</a></li>
+          <li><a href="">menu 2</a></li>
+          <li><a href="">menu 3</a></li>
+        </ul> -->
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <ul id="lessons">
+                <li>
+                    <div class="lesson_img">
+                        <img src="001.jpg" alt="" width="50" height="50">
+                    </div>
+
+                    <div class="lesson_info">
+                        <h2>Html</h2>
+                        <p>intro to html intro to html intro to html intro to html intro to html </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="lesson_img">
+                        <img src="001.jpg" alt="" width="50" height="50">
+                    </div>
+
+                    <div class="lesson_info">
+                        <h2>Html</h2>
+                        <p>intro to html intro to html intro to html intro to html intro to html </p>
+                    </div>
+                </li>  <li>
+                      <div class="lesson_img">
+                          <img src="001.jpg" alt="" width="50" height="50">
+                      </div>
+
+                      <div class="lesson_info">
+                          <h2>Html</h2>
+                          <p>intro to html intro to html intro to html intro to html intro to html </p>
+                      </div>
+                  </li>
+            </ul>
+            <!--<div class="product">
+          <img src="001.jpg">
+          <span class="price">$100.00</span>
+        </div> -->
+            <!--<div id="left">Left</div>
+        <div id="right">Right</div>
+        <div id="center">Center</div> -->
+        </div>
+        <!-- <div style="clear:both;"></div> -->
+    </main>
+    <footer>
+        <div class="container">
+            footer
+        </div>
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
