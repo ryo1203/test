@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>CSS Practice</title>
     <link rel="stylesheet" href="default.css">
-  </head>
-  <body>
-    <p class="help">Help!</p>
-    <p class="dragme">Drag me!</p>
-    <p class="clickme">Click me!</p>
-    <p class="smile">Smile!</p>
+</head>
 
-  </body>
+<body>
+    <p id="main">jQueryの練習</p>
+    <p><a href="http://google.com">google</a></p>
+    <p><a href="http://yahoo.co.jp">yahoo</a></p>
+    <p><a href="http://dotinstall.com">Dotinstall</a></p>
+
+    <div id="box" style="width:100px;height:100px;background:red;"></div>
+
+    <ul>
+        <li>0</li>
+        <li class="item">1</li>
+        <li class="item">2</li>
+        <li>3
+            <ul id="sub">
+                <li>3-0</li>
+                <li>3-1</li>
+                <li class="item">3-2</li>
+                <li class="item">3-3</li>
+                <li>3-4</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
 </html>
