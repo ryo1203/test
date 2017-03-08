@@ -1,23 +1,19 @@
 $(function(){
 
-$('.header-list').hover(
+$('.menu > a , .table-group > a').hover(
   function(){
-    $(this).css('background-color','rgb(210,210,210)');
+    $(this).css('background-color','rgba(209, 209, 209,0.9)');
   },
   function(){
-    $(this).css('background-color','rgb(255, 255, 255)');
-    $('.menu').css('border-color', 'opacity(0.0)');
-  }
-);
+    $(this).css('background-color','rgba(209, 209, 209,0.0)');
+  });
 
-$('.header-list').hover(
-  function(){
-    $('header>ul>li>div>ul>li').css('height','50px');
-  },
-  function() {
-    $('header>ul>li>div>ul>li').css('height','0px');
-  }
-);
-
+  $('.menu:nth-child(2)').hover(
+    function(){
+      $('.menu-table').slideDown('fast');
+    },
+    function(){
+      $('.menu-table').slideUp();
+    });
 
 });

@@ -34,8 +34,8 @@ function(){
     'margin-left': '30px',
     'margin-top':'16.6px',
     //'position': 'absolute',
-  })
+  });
 
-})
+});
 
 });
